@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.container .inputsBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container .inputsBtn input{
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 14px;
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.container .inputsBtn button{
+    width: 90%;
+    padding: 3px;
+    border: none;
+    background-color: #6200ff;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.container .inputsBtn button:hover{
+    background-color: #3700b3;
+}
+
+.todolist{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: max-content;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todolist .todotask{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+}
+.todolist .todotask h2{
+    font-size: 19px;
+}
+.todolist .todotask p{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #000000;
+}
+.todolist .todotask button{
+    margin-top: 5px;
+    padding: 3px;
+    width: 20%;
+    border: none;
+    background-color: #ff3535;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 5px;
+}
+.todolist .todotask button:hover{
+    background-color: #b30000;
+}
